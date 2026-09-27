@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild/
+.cxx/
+local.properties
+app/build/
+app/.cxx/
+
+# llama.cpp 源码（用 scripts/fetch-llama-cpp.sh 拉取）
+third_party/
+
+# 模型文件别传上来，动辄几个 GB
+*.gguf
+*.gguf.part
